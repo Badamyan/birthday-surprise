@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You ✨</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+
+        <div class="stars">
+            <span>✦</span>
+            <span>✧</span>
+            <span>·</span>
+            <span>✦</span>
+            <span>✧</span>
+            <span>·</span>
+            <span>✦</span>
+            <span>✧</span>
+        </div>
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- QUESTION SCREEN -->
+    <!-- ========================= -->
+
+    <main id="question-screen" class="screen active">
+
+        <div class="question-card">
+
+            <div class="tiny-label">
+                ✦ A little surprise for you
+            </div>
+
+            <div class="gift-icon">
+                🎁
+            </div>
+
+            <h1>
+                I have one<br>
+                <span>very important</span><br>
+                question...
+            </h1>
+
+            <p class="question-text">
+                Are you ready to see<br>
+                what I prepared for you?
+            </p>
+
+            <div class="buttons">
+
+                <button id="yes-btn" class="yes-button">
+                    <span>YES</span>
+                    <span class="button-star">✦</span>
+                </button>
+
+                <button id="no-btn" class="no-button">
+                    NO
+                </button>
+
+            </div>
+
+            <p id="no-message" class="no-message"></p>
+
+            <div class="scroll-hint">
+                move your mouse around...
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========================= -->
+    <!-- BIRTHDAY SCREEN -->
+    <!-- ========================= -->
+
+    <main id="birthday-screen" class="screen">
+
+        <!-- Confetti container -->
+        <div id="confetti-container"></div>
+
+        <section class="birthday-content">
+
+            <div class="birthday-top">
+
+                <div class="eyebrow">
+                    ✦ TODAY IS YOUR DAY ✦
+                </div>
+
+                <h2>
+                    Happy
+                    <span>Birthday</span>
+                </h2>
+
+                <p class="birthday-name">
+                    BESTIE
+                </p>
+
+                <p class="intro">
+                    Another year, another collection of memories,
+                    laughs, random conversations and moments
+                    that are impossible to replace.
+                </p>
+
+            </div>
+
+
+            <!-- PHOTO CAROUSEL -->
+
+            <div class="carousel-section">
+
+                <div class="carousel-title">
+                    <span>our little memories</span>
+                    <span>← keep watching →</span>
+                </div>
+
+                <div class="carousel-wrapper">
+
+                    <div class="carousel-track" id="carousel-track">
+
+                        <div class="photo-card">
+                            <img src="assets/photos/photo1.jpg" alt="Memory 1">
+                            <div class="photo-number">01</div>
+                        </div>
+
+                        <div class="photo-card">
+                            <img src="assets/photos/photo2.jpg" alt="Memory 2">
+                            <div class="photo-number">02</div>
+                        </div>
+
+                        <div class="photo-card">
+                            <img src="assets/photos/photo3.jpg" alt="Memory 3">
+                            <div class="photo-number">03</div>
+                        </div>
+
+                        <div class="photo-card">
+                            <img src="assets/photos/photo4.jpg" alt="Memory 4">
+                            <div class="photo-number">04</div>
+                        </div>
+
+                        <div class="photo-card">
+                            <img src="assets/photos/photo5.jpg" alt="Memory 5">
+                            <div class="photo-number">05</div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MESSAGE -->
+
+            <section class="message-section">
+
+                <div class="message-decoration">
+                    ✦
+                </div>
+
+                <p class="message-small">
+                    a little birthday note
+                </p>
+
+                <h3>
+                    Some people make<br>
+                    ordinary days feel <span>special.</span>
+                </h3>
+
+                <p class="message">
+                    I hope this new chapter brings you
+                    beautiful moments, unexpected happiness,
+                    unforgettable adventures and lots of reasons
+                    to smile.
+                </p>
+
+                <div class="friendship-lines">
+
+                    <div>
+                        <span>01</span>
+                        More laughs
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        More adventures
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        More memories
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- FINAL -->
+
+            <section class="final-section">
+
+                <div class="cake">
+                    🎂
+                </div>
+
+                <h3>
+                    Here's to another<br>
+                    <span>amazing year.</span>
+                </h3>
+
+                <p>
+                    Happy Birthday ❤️
+                </p>
+
+                <div class="final-stars">
+                    ✦ &nbsp; ✧ &nbsp; ✦ &nbsp; ✧ &nbsp; ✦
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
